@@ -7,12 +7,12 @@ angular
         templateUrl: "../views/about.html"
       })
       .state("adventurers", {
-        parent: 'home',
+        // parent: 'home',
         url: "/adventurers",
         templateUrl: "../views/about-adventurers.html"
       })
       .state("contact", {
-        parent: 'home',
+        // parent: 'home',
         url: "/contact",
         templateUrl: "../views/contact.html"
       })
